@@ -35,4 +35,14 @@ describe('Calculator', function () {
       calc.divide(50, 0);
     }).to.throw('Division by zero');
   });
+
+  it('squares numbers correctly', function () {
+    const result = calc.square(7);
+    expect(result).to.equal(49);
+  });
+
+  it('cubes numbers correctly', function () {
+    const result = calc.cube(2);
+    expect(result).to.equal(8);
+  });
 });

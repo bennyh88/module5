@@ -21,6 +21,14 @@ class Calculator {
         return a / b;
     }
 
+    square(a) {
+        return a * a;
+    }
+
+    cube(a) {
+        return a * a * a;
+    }
+
 }
 
 module.exports = Calculator;

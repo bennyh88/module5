@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "calculator.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc npm run test"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "chai": "^6.2.2",
-    "mocha": "^11.7.5"
+    "mocha": "^11.7.5",
+    "nyc": "^18.0.0"
   }
 }

@@ -1,0 +1,17 @@
+
+{
+  "name": "qa-calculator",
+  "version": "1.0.0",
+  "description": "Lab 4.5 - Test doubles",
+  "main": "IncomeCalculator.js",
+  "scripts": {
+    "test": "mocha test/."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5",
+    "sinon": "^22.0.0"
+  }
+}
